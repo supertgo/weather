@@ -1,3 +1,5 @@
+require('../style/main.scss')
+console.log('aaa')
 const searchInput = document.querySelector('#search');
 const btn = document.querySelector('#btn');
 const api = "https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}"

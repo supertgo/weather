@@ -3,7 +3,6 @@
     display: flex;
     justify-content: center;
     
-
     #search {
         outline: none;
         border: none;
@@ -14,7 +13,7 @@
 
     .search-glass {
         width: 1rem;
-        background-image: url(../images/search-icon.png);
+        /*background-image: url(../images/search-icon.png);*/
         background-size: contain;
         background-repeat: no-repeat;
         cursor: pointer;
