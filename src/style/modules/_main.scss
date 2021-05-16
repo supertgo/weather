@@ -1,0 +1,41 @@
+main {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+    .weather-info {
+        background-color: transparent;
+        width: 100%;
+        max-width: 50%;
+    }
+
+    .weather-details-container {
+        background-color:transparent;
+        width: 100%;
+
+        .weather-details {
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 3rem;
+            font-weight: 800;
+            line-height: 3rem;
+
+            .weather-details-icon {
+                width: 3rem;
+                color: white;
+            }
+
+            .weather-details-info {
+               .weather-details-label {
+                    font-size: 1rem;
+               }
+
+               .weather-details-data {
+                font-size: 1.5rem;
+               }
+            }
+        }
+    
+    }
+}

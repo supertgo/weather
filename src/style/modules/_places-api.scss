@@ -1,0 +1,9 @@
+.pac-icon {
+    display: none;
+}
+
+.pac-container {
+    &::after{
+        content: none !important;
+    }
+}
