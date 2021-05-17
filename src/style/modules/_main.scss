@@ -1,13 +1,30 @@
 main {
     margin-top: 1rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: white;
 
     .weather-info {
-        background-color: transparent;
         width: 100%;
         max-width: 55%;
+
+        & > * {
+            margin-bottom: 1rem;
+        }
+
+        .weather-info-description {
+            font-size: 3rem;
+            font-weight: 600;
+        }
+
+        .weather-info-temperature {
+            font-size: 4rem;
+            font-weight: 800;
+        }
+
+        .weather-info-icon {
+            width: 4rem;
+        }
     }
 
     .weather-details-container {
