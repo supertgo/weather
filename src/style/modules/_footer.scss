@@ -2,7 +2,27 @@ footer {
     width: 100%;
     display: flex;
     justify-content: center;
+    text-align: center;
+    align-items: center;
     position: fixed;
     bottom: 0;
     left: 0;
+    padding: 0.3rem;
+    background-color: rgba(0, 0, 0, 0);
+
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 1.5rem;
+        align-items: center;
+
+        span {
+            padding-left: 1rem;
+            .fa {
+                color: white;
+                font-size: 2rem;
+            }
+        }
+    }
+
 }

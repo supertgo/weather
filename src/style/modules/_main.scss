@@ -7,32 +7,31 @@ main {
     .weather-info {
         background-color: transparent;
         width: 100%;
-        max-width: 50%;
+        max-width: 55%;
     }
 
     .weather-details-container {
-        background-color:transparent;
-        width: 100%;
 
         .weather-details {
             display: flex;
-            justify-content: flex-end;
-            padding-right: 3rem;
-            font-weight: 800;
-            line-height: 3rem;
+            margin-bottom: 1.5rem;
 
             .weather-details-icon {
-                width: 3rem;
-                color: white;
+                width: 2rem;
+                padding-right: 1rem;
             }
 
             .weather-details-info {
+                align-items: center;
+
                .weather-details-label {
-                    font-size: 1rem;
+                   text-align: center;
+                   font-weight: 600;
+                    font-size: 1.4rem;
                }
 
                .weather-details-data {
-                font-size: 1.5rem;
+                font-size: 2.3rem;
                }
             }
         }

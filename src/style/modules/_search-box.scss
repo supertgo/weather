@@ -4,11 +4,18 @@
     justify-content: center;
     
     #search {
+
         outline: none;
         border: none;
-        padding-left: 1rem;
+        padding: 0.5rem 0 0 1rem;
         background: transparent;
         border-bottom: 2px solid #ffffff;
+        color: white;
+        
+        &::-webkit-input-placeholder{
+            font-weight: 700;
+            color: white;
+        }
     }
 
     .search-glass {
