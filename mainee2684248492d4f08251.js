@@ -1,1 +1,0 @@
-(()=>{"use strict";const e=document.querySelector("#search");document.querySelector("#btn"),new google.maps.places.Autocomplete(e,{types:["(cities)"]})})();
