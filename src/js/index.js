@@ -1,24 +1,21 @@
 import '../style/style.scss';
+import { weather } from './modules/weather-api-functions';
+import { renderWeather } from './modules/domFunctions';
 
 const searchInput = document.querySelector('#search');
-const btn = document.querySelector('#btn');
+const divSearch = document.querySelector('.search-glass');
 const api = "https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}"
-let options = {
-    types: ['(cities)']
-}
 
-let resposta = new google.maps.places.Autocomplete(searchInput, options);
+divSearch.addEventListener('click', async () => {
+    const response = await weather(searchInput.value);
+    console.log(response);
+    renderWeather(response);
+});
 
-async function weather(name) {
 
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${name}&appid=fed5252a83d1efbe48a54ce479af6041`,
-        { mode: 'cors', }
-    );
-    const data = await response.json();
 
-    console.log(
-        data,
-        data.weather
-    );
-}
+
+
+
+
 

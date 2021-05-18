@@ -32,7 +32,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()((_assets_search_icon_png__WEBPACK_IMPORTED_MODULE_3___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()((_screen_2_jpg__WEBPACK_IMPORTED_MODULE_4___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".search-box {\n  margin-top: 2rem;\n  display: flex;\n  justify-content: center;\n}\n.search-box #search {\n  width: 18.75rem;\n  outline: none;\n  border: none;\n  padding: 0.5rem 0 0 2rem;\n  background: transparent;\n  border-bottom: 2px solid #ffffff;\n  color: white;\n}\n.search-box #search::-webkit-input-placeholder {\n  font-weight: 700;\n  color: white;\n}\n.search-box .search-glass {\n  width: 1rem;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: contain;\n  background-repeat: no-repeat;\n  cursor: pointer;\n  border-bottom: 2px solid #ffffff;\n}\n\n.pac-icon {\n  display: none;\n}\n\n.pac-container::after {\n  content: none !important;\n}\n\nmain {\n  margin-top: 1rem;\n  display: flex;\n  justify-content: space-around;\n  color: white;\n}\nmain .weather-info {\n  width: 100%;\n  max-width: 55%;\n}\nmain .weather-info > * {\n  margin-bottom: 1rem;\n}\nmain .weather-info .weather-info-description {\n  font-size: 3rem;\n  font-weight: 600;\n}\nmain .weather-info .weather-info-temperature {\n  font-size: 4rem;\n  font-weight: 800;\n}\nmain .weather-info .weather-info-icon {\n  width: 4rem;\n}\nmain .weather-details-container .weather-details {\n  display: flex;\n  margin-bottom: 1.5rem;\n}\nmain .weather-details-container .weather-details .weather-details-icon {\n  width: 2rem;\n  padding-right: 1rem;\n}\nmain .weather-details-container .weather-details .weather-details-info {\n  align-items: center;\n}\nmain .weather-details-container .weather-details .weather-details-info .weather-details-label {\n  text-align: center;\n  font-weight: 600;\n  font-size: 1.4rem;\n}\nmain .weather-details-container .weather-details .weather-details-info .weather-details-data {\n  font-size: 2.3rem;\n}\n\nfooter {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  text-align: center;\n  align-items: center;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  padding: 0.3rem;\n  background-color: rgba(0, 0, 0, 0);\n}\nfooter a {\n  text-decoration: none;\n  color: white;\n  font-size: 1.5rem;\n  align-items: center;\n}\nfooter a span {\n  padding-left: 1rem;\n}\nfooter a span .fa {\n  color: white;\n  font-size: 2rem;\n}\n\n.forecast {\n  color: white;\n  display: flex;\n  justify-content: space-around;\n  flex-direction: row;\n  height: 30rem;\n}\n.forecast .forecast-week {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n}\n.forecast .forecast-week .forecast-week-day {\n  font-size: 2rem;\n}\n\n@media (max-width: 768px) {\n  .forecast {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-between;\n  }\n}\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: inherit;\n}\n\nbody {\n  width: 100%;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") no-repeat center fixed;\n  background-size: cover;\n  height: 100%;\n}", "",{"version":3,"sources":["webpack://./src/style/modules/_search-box.scss","webpack://./src/style/style.scss","webpack://./src/style/modules/_places-api.scss","webpack://./src/style/modules/_main.scss","webpack://./src/style/modules/_footer.scss","webpack://./src/style/modules/_forecast.scss"],"names":[],"mappings":"AAAA;EACI,gBAAA;EACA,aAAA;EACA,uBAAA;ACCJ;ADCI;EACI,eAAA;EACA,aAAA;EACA,YAAA;EACA,wBAAA;EACA,uBAAA;EACA,gCAAA;EACA,YAAA;ACCR;ADCQ;EACI,gBAAA;EACA,YAAA;ACCZ;ADGI;EACI,WAAA;EACA,yDAAA;EACA,wBAAA;EACA,4BAAA;EACA,eAAA;EACA,gCAAA;ACDR;;ACzBA;EACI,aAAA;AD4BJ;;ACxBI;EACI,wBAAA;AD2BR;;AEjCA;EACI,gBAAA;EACA,aAAA;EACA,6BAAA;EACA,YAAA;AFoCJ;AElCI;EACI,WAAA;EACA,cAAA;AFoCR;AElCQ;EACI,mBAAA;AFoCZ;AEjCQ;EACI,eAAA;EACA,gBAAA;AFmCZ;AEhCQ;EACI,eAAA;EACA,gBAAA;AFkCZ;AE/BQ;EACI,WAAA;AFiCZ;AE3BQ;EACI,aAAA;EACA,qBAAA;AF6BZ;AE3BY;EACI,WAAA;EACA,mBAAA;AF6BhB;AE1BY;EACI,mBAAA;AF4BhB;AE1Be;EACI,kBAAA;EACA,gBAAA;EACC,iBAAA;AF4BpB;AEzBe;EACC,iBAAA;AF2BhB;;AG7EA;EACI,WAAA;EACA,aAAA;EACA,uBAAA;EACA,kBAAA;EACA,mBAAA;EACA,eAAA;EACA,SAAA;EACA,OAAA;EACA,eAAA;EACA,kCAAA;AHgFJ;AG9EI;EACI,qBAAA;EACA,YAAA;EACA,iBAAA;EACA,mBAAA;AHgFR;AG9EQ;EACI,kBAAA;AHgFZ;AG/EY;EACI,YAAA;EACA,eAAA;AHiFhB;;AIvGA;EACI,YAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,aAAA;AJ0GJ;AIxGI;EACI,aAAA;EACA,sBAAA;EACA,6BAAA;AJ0GR;AIxGQ;EACI,eAAA;AJ0GZ;;AIpGA;EACI;IACI,aAAA;IACA,sBAAA;IACA,mBAAA;IACA,8BAAA;EJuGN;AACF;AA1HA;EACI,SAAA;EACA,UAAA;EACA,mBAAA;AA4HJ;;AAzHA;EACI,WAAA;EACA,0EAAA;EACA,sBAAA;EACA,YAAA;AA4HJ","sourcesContent":[".search-box {\n    margin-top: 2rem;\n    display: flex;\n    justify-content: center;\n    \n    #search {\n        width: 18.75rem;\n        outline: none;\n        border: none;\n        padding: 0.5rem 0 0 2rem;\n        background: transparent;\n        border-bottom: 2px solid #ffffff;\n        color: white;\n        \n        &::-webkit-input-placeholder{\n            font-weight: 700;\n            color: white;\n        }\n    }\n\n    .search-glass {\n        width: 1rem;\n        background-image: url(/src/assets/search-icon.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        cursor: pointer;\n        border-bottom: 2px solid #ffffff;\n    }\n}","@import \"modules/search-box\";\n@import \"modules/places-api\";\n@import \"modules/main\";\n@import \"modules/footer\";\n@import \"modules/forecast\";\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: inherit;\n}\n\nbody {\n    width: 100%;\n    background: url(/screen-2.jpg) no-repeat center fixed;\n    background-size: cover;\n    height: 100%;\n}",".pac-icon {\n    display: none;\n}\n\n.pac-container {\n    &::after{\n        content: none !important;\n    }\n}","main {\n    margin-top: 1rem;\n    display: flex;\n    justify-content: space-around;\n    color: white;\n\n    .weather-info {\n        width: 100%;\n        max-width: 55%;\n\n        & > * {\n            margin-bottom: 1rem;\n        }\n\n        .weather-info-description {\n            font-size: 3rem;\n            font-weight: 600;\n        }\n\n        .weather-info-temperature {\n            font-size: 4rem;\n            font-weight: 800;\n        }\n\n        .weather-info-icon {\n            width: 4rem;\n        }\n    }\n\n    .weather-details-container {\n\n        .weather-details {\n            display: flex;\n            margin-bottom: 1.5rem;\n\n            .weather-details-icon {\n                width: 2rem;\n                padding-right: 1rem;\n            }\n\n            .weather-details-info {\n                align-items: center;\n\n               .weather-details-label {\n                   text-align: center;\n                   font-weight: 600;\n                    font-size: 1.4rem;\n               }\n\n               .weather-details-data {\n                font-size: 2.3rem;\n               }\n            }\n        }\n    \n    }\n}","footer {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    text-align: center;\n    align-items: center;\n    position: fixed;\n    bottom: 0;\n    left: 0;\n    padding: 0.3rem;\n    background-color: rgba(0, 0, 0, 0);\n\n    a {\n        text-decoration: none;\n        color: white;\n        font-size: 1.5rem;\n        align-items: center;\n\n        span {\n            padding-left: 1rem;\n            .fa {\n                color: white;\n                font-size: 2rem;\n            }\n        }\n    }\n\n}",".forecast {\n    color: white;\n    display: flex;\n    justify-content: space-around;\n    flex-direction: row;\n    height: 30rem;\n\n    .forecast-week {\n        display: flex;\n        flex-direction: column;\n        justify-content: space-around;\n\n        .forecast-week-day {\n            font-size: 2rem;\n        }\n    }\n}\n\n\n@media (max-width: 768px) {\n    .forecast {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: space-between;\n    }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".search-box {\n  margin-top: 2rem;\n  display: flex;\n  justify-content: center;\n}\n.search-box #search {\n  width: 18.75rem;\n  outline: none;\n  border: none;\n  padding: 0.5rem 0 0 2rem;\n  background: transparent;\n  border-bottom: 2px solid #ffffff;\n  color: white;\n}\n.search-box #search::-webkit-input-placeholder {\n  font-weight: 700;\n  color: white;\n}\n.search-box .search-glass {\n  width: 1rem;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: contain;\n  background-repeat: no-repeat;\n  cursor: pointer;\n  border-bottom: 2px solid #ffffff;\n}\n\n.pac-icon {\n  display: none;\n}\n\n.pac-container::after {\n  content: none !important;\n}\n\nmain {\n  margin-top: 1rem;\n  display: flex;\n  justify-content: space-around;\n  color: white;\n}\nmain .weather-info {\n  width: 100%;\n  max-width: 55%;\n}\nmain .weather-info > * {\n  margin-bottom: 1rem;\n}\nmain .weather-info .weather-info-description {\n  font-size: 3rem;\n  font-weight: 600;\n  text-transform: capitalize;\n}\nmain .weather-info .weather-info-temp {\n  font-size: 3rem;\n  font-weight: 800;\n}\nmain .weather-info .weather-info-icon {\n  width: 4rem;\n}\nmain .weather-details-container .weather-details {\n  display: flex;\n  margin-bottom: 1.5rem;\n}\nmain .weather-details-container .weather-details .weather-details-icon {\n  width: 2rem;\n  padding-right: 1rem;\n}\nmain .weather-details-container .weather-details .weather-details-info {\n  align-items: center;\n}\nmain .weather-details-container .weather-details .weather-details-info .weather-details-label {\n  text-align: center;\n  font-weight: 600;\n  font-size: 1.4rem;\n}\nmain .weather-details-container .weather-details .weather-details-info .weather-details-data {\n  font-size: 2.3rem;\n}\n\nfooter {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  text-align: center;\n  align-items: center;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  padding: 0.3rem;\n  background-color: rgba(0, 0, 0, 0);\n}\nfooter a {\n  text-decoration: none;\n  color: white;\n  font-size: 1.5rem;\n  align-items: center;\n}\nfooter a span {\n  padding-left: 1rem;\n}\nfooter a span .fa {\n  color: white;\n  font-size: 2rem;\n}\n\n.forecast {\n  color: white;\n  display: flex;\n  justify-content: space-around;\n  flex-direction: row;\n  height: 30rem;\n}\n.forecast .forecast-week {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n}\n.forecast .forecast-week .forecast-week-day {\n  font-size: 2rem;\n}\n\n@media (max-width: 768px) {\n  .forecast {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-between;\n  }\n}\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: inherit;\n}\n\nbody {\n  width: 100%;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") no-repeat center fixed;\n  background-size: cover;\n  height: 100%;\n}", "",{"version":3,"sources":["webpack://./src/style/modules/_search-box.scss","webpack://./src/style/style.scss","webpack://./src/style/modules/_places-api.scss","webpack://./src/style/modules/_main.scss","webpack://./src/style/modules/_footer.scss","webpack://./src/style/modules/_forecast.scss"],"names":[],"mappings":"AAAA;EACI,gBAAA;EACA,aAAA;EACA,uBAAA;ACCJ;ADCI;EACI,eAAA;EACA,aAAA;EACA,YAAA;EACA,wBAAA;EACA,uBAAA;EACA,gCAAA;EACA,YAAA;ACCR;ADCQ;EACI,gBAAA;EACA,YAAA;ACCZ;ADGI;EACI,WAAA;EACA,yDAAA;EACA,wBAAA;EACA,4BAAA;EACA,eAAA;EACA,gCAAA;ACDR;;ACzBA;EACI,aAAA;AD4BJ;;ACxBI;EACI,wBAAA;AD2BR;;AEjCA;EACI,gBAAA;EACA,aAAA;EACA,6BAAA;EACA,YAAA;AFoCJ;AElCI;EACI,WAAA;EACA,cAAA;AFoCR;AElCQ;EACI,mBAAA;AFoCZ;AEjCQ;EACI,eAAA;EACA,gBAAA;EACA,0BAAA;AFmCZ;AEhCQ;EACI,eAAA;EACA,gBAAA;AFkCZ;AE/BQ;EACI,WAAA;AFiCZ;AE3BQ;EACI,aAAA;EACA,qBAAA;AF6BZ;AE3BY;EACI,WAAA;EACA,mBAAA;AF6BhB;AE1BY;EACI,mBAAA;AF4BhB;AE1Be;EACI,kBAAA;EACA,gBAAA;EACC,iBAAA;AF4BpB;AEzBe;EACC,iBAAA;AF2BhB;;AG9EA;EACI,WAAA;EACA,aAAA;EACA,uBAAA;EACA,kBAAA;EACA,mBAAA;EACA,eAAA;EACA,SAAA;EACA,OAAA;EACA,eAAA;EACA,kCAAA;AHiFJ;AG/EI;EACI,qBAAA;EACA,YAAA;EACA,iBAAA;EACA,mBAAA;AHiFR;AG/EQ;EACI,kBAAA;AHiFZ;AGhFY;EACI,YAAA;EACA,eAAA;AHkFhB;;AIxGA;EACI,YAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,aAAA;AJ2GJ;AIzGI;EACI,aAAA;EACA,sBAAA;EACA,6BAAA;AJ2GR;AIzGQ;EACI,eAAA;AJ2GZ;;AIrGA;EACI;IACI,aAAA;IACA,sBAAA;IACA,mBAAA;IACA,8BAAA;EJwGN;AACF;AA3HA;EACI,SAAA;EACA,UAAA;EACA,mBAAA;AA6HJ;;AA1HA;EACI,WAAA;EACA,0EAAA;EACA,sBAAA;EACA,YAAA;AA6HJ","sourcesContent":[".search-box {\n    margin-top: 2rem;\n    display: flex;\n    justify-content: center;\n    \n    #search {\n        width: 18.75rem;\n        outline: none;\n        border: none;\n        padding: 0.5rem 0 0 2rem;\n        background: transparent;\n        border-bottom: 2px solid #ffffff;\n        color: white;\n        \n        &::-webkit-input-placeholder{\n            font-weight: 700;\n            color: white;\n        }\n    }\n\n    .search-glass {\n        width: 1rem;\n        background-image: url(/src/assets/search-icon.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        cursor: pointer;\n        border-bottom: 2px solid #ffffff;\n    }\n}","@import \"modules/search-box\";\n@import \"modules/places-api\";\n@import \"modules/main\";\n@import \"modules/footer\";\n@import \"modules/forecast\";\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: inherit;\n}\n\nbody {\n    width: 100%;\n    background: url(/screen-2.jpg) no-repeat center fixed;\n    background-size: cover;\n    height: 100%;\n}",".pac-icon {\n    display: none;\n}\n\n.pac-container {\n    &::after{\n        content: none !important;\n    }\n}","main {\n    margin-top: 1rem;\n    display: flex;\n    justify-content: space-around;\n    color: white;\n\n    .weather-info {\n        width: 100%;\n        max-width: 55%;\n\n        & > * {\n            margin-bottom: 1rem;\n        }\n\n        .weather-info-description {\n            font-size: 3rem;\n            font-weight: 600;\n            text-transform: capitalize;\n        }\n\n        .weather-info-temp {\n            font-size: 3rem;\n            font-weight: 800;\n        }\n\n        .weather-info-icon {\n            width: 4rem;\n        }\n    }\n\n    .weather-details-container {\n\n        .weather-details {\n            display: flex;\n            margin-bottom: 1.5rem;\n\n            .weather-details-icon {\n                width: 2rem;\n                padding-right: 1rem;\n            }\n\n            .weather-details-info {\n                align-items: center;\n\n               .weather-details-label {\n                   text-align: center;\n                   font-weight: 600;\n                    font-size: 1.4rem;\n               }\n\n               .weather-details-data {\n                font-size: 2.3rem;\n               }\n            }\n        }\n    \n    }\n}","footer {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    text-align: center;\n    align-items: center;\n    position: fixed;\n    bottom: 0;\n    left: 0;\n    padding: 0.3rem;\n    background-color: rgba(0, 0, 0, 0);\n\n    a {\n        text-decoration: none;\n        color: white;\n        font-size: 1.5rem;\n        align-items: center;\n\n        span {\n            padding-left: 1rem;\n            .fa {\n                color: white;\n                font-size: 2rem;\n            }\n        }\n    }\n\n}",".forecast {\n    color: white;\n    display: flex;\n    justify-content: space-around;\n    flex-direction: row;\n    height: 30rem;\n\n    .forecast-week {\n        display: flex;\n        flex-direction: column;\n        justify-content: space-around;\n\n        .forecast-week-day {\n            font-size: 2rem;\n        }\n    }\n}\n\n\n@media (max-width: 768px) {\n    .forecast {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: space-between;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -528,6 +528,87 @@ module.exports = function (list, options) {
   };
 };
 
+/***/ }),
+
+/***/ "./src/js/modules/domFunctions.js":
+/*!****************************************!*\
+  !*** ./src/js/modules/domFunctions.js ***!
+  \****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "renderWeather": () => (/* binding */ renderWeather)
+/* harmony export */ });
+function renderWeather(data) {
+    _renderWeatherInfo(data);
+    _renderWeatherDetailsContainer(data);
+}
+
+function _renderWeatherInfo(data) {
+
+    const content = {
+        description: data.weather[0].description,
+        name: data.name,
+        temp: data.main.temp + ' °C',
+        icon: `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
+    }
+    const keys = Object.keys(content);
+    const values = Object.values(content);
+
+    for (let i = 0; i < keys.length; i++) {
+        if (keys[i] !== 'icon') {
+            document.querySelector(`.weather-info-${keys[i]}`).textContent = values[i];
+        } else {
+            document.getElementById('weather-info-icon-image').src = values[i];
+        }
+    }
+}
+
+function _renderWeatherDetailsContainer(data) {
+    const content = {
+        feels_like: `${data.main.feels_like}°C`,
+        humidity: `${data.main.humidity} %`,
+        wind_speed: `${data.wind.speed} km/h`,
+    }
+
+    const keys = Object.keys(content);
+    const values = Object.values(content);
+
+    for (let i = 0; i < keys.length; i++) {
+        document.querySelector(`#${keys[i]}`).textContent = values[i];
+    }
+
+}
+
+/***/ }),
+
+/***/ "./src/js/modules/weather-api-functions.js":
+/*!*************************************************!*\
+  !*** ./src/js/modules/weather-api-functions.js ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "weather": () => (/* binding */ weather)
+/* harmony export */ });
+const searchInput = document.querySelector('#search');
+const options = {
+    types: ['(cities)'],
+}
+
+new google.maps.places.Autocomplete(searchInput, options);
+
+async function weather(name) {
+    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${name}&units=metric&appid=fed5252a83d1efbe48a54ce479af6041`,
+        { mode: 'cors' });
+    return await response.json()
+}
+
+
 /***/ })
 
 /******/ 	});
@@ -639,29 +720,28 @@ var __webpack_exports__ = {};
   \*************************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../style/style.scss */ "./src/style/style.scss");
+/* harmony import */ var _modules_weather_api_functions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/weather-api-functions */ "./src/js/modules/weather-api-functions.js");
+/* harmony import */ var _modules_domFunctions__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/domFunctions */ "./src/js/modules/domFunctions.js");
+
+
 
 
 const searchInput = document.querySelector('#search');
-const btn = document.querySelector('#btn');
+const divSearch = document.querySelector('.search-glass');
 const api = "https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}"
-let options = {
-    types: ['(cities)']
-}
 
-let resposta = new google.maps.places.Autocomplete(searchInput, options);
+divSearch.addEventListener('click', async () => {
+    const response = await (0,_modules_weather_api_functions__WEBPACK_IMPORTED_MODULE_1__.weather)(searchInput.value);
+    console.log(response);
+    (0,_modules_domFunctions__WEBPACK_IMPORTED_MODULE_2__.renderWeather)(response);
+});
 
-async function weather(name) {
 
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${name}&appid=fed5252a83d1efbe48a54ce479af6041`,
-        { mode: 'cors', }
-    );
-    const data = await response.json();
 
-    console.log(
-        data,
-        data.weather
-    );
-}
+
+
+
+
 
 
 })();
