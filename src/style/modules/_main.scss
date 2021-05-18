@@ -15,10 +15,11 @@ main {
         .weather-info-description {
             font-size: 3rem;
             font-weight: 600;
+            text-transform: capitalize;
         }
 
-        .weather-info-temperature {
-            font-size: 4rem;
+        .weather-info-temp {
+            font-size: 3rem;
             font-weight: 800;
         }
 
