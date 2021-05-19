@@ -7,7 +7,7 @@ new google.maps.places.Autocomplete(searchInput, options);
 
 function getUrlWithCityName(name) {
     console.log(name);
-    return `http://api.openweathermap.org/data/2.5/weather?q=${name}&units=metric&appid=fed5252a83d1efbe48a54ce479af6041`
+    return `https://api.openweathermap.org/data/2.5/weather?q=${name}&units=metric&appid=fed5252a83d1efbe48a54ce479af6041`
 }
 
 export function getForecastUrl(coords, units = 'metric') {
