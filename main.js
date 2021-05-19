@@ -29,10 +29,11 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()((_assets_search_icon_png__WEBPACK_IMPORTED_MODULE_3___default()));
 var ___CSS_LOADER_URL_REPLACEMENT_1___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()((_screen_2_jpg__WEBPACK_IMPORTED_MODULE_4___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, ".search-box {\n  margin-top: 2rem;\n  display: flex;\n  justify-content: center;\n}\n.search-box #search {\n  width: 18.75rem;\n  outline: none;\n  border: none;\n  padding: 0.5rem 0 0 2rem;\n  background: transparent;\n  border-bottom: 2px solid #ffffff;\n  color: white;\n}\n.search-box #search::-webkit-input-placeholder {\n  font-weight: 700;\n  color: white;\n}\n.search-box .search-glass {\n  width: 1rem;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: contain;\n  background-repeat: no-repeat;\n  cursor: pointer;\n  border-bottom: 2px solid #ffffff;\n}\n\n.pac-icon {\n  display: none;\n}\n\n.pac-container::after {\n  content: none !important;\n}\n\nmain {\n  margin-top: 1rem;\n  display: flex;\n  justify-content: space-around;\n  color: white;\n}\nmain .weather-info {\n  width: 100%;\n  max-width: 55%;\n}\nmain .weather-info > * {\n  margin-bottom: 1rem;\n}\nmain .weather-info .weather-info-description {\n  font-size: 3rem;\n  font-weight: 600;\n  text-transform: capitalize;\n}\nmain .weather-info .weather-info-temp {\n  font-size: 3rem;\n  font-weight: 800;\n}\nmain .weather-info .weather-info-icon {\n  width: 4rem;\n}\nmain .weather-details-container .weather-details {\n  display: flex;\n  margin-bottom: 1.5rem;\n}\nmain .weather-details-container .weather-details .weather-details-icon {\n  width: 2rem;\n  padding-right: 1rem;\n}\nmain .weather-details-container .weather-details .weather-details-info {\n  align-items: center;\n}\nmain .weather-details-container .weather-details .weather-details-info .weather-details-label {\n  text-align: center;\n  font-weight: 600;\n  font-size: 1.4rem;\n}\nmain .weather-details-container .weather-details .weather-details-info .weather-details-data {\n  font-size: 2.3rem;\n}\n\nfooter {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  text-align: center;\n  align-items: center;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  padding: 0.3rem;\n  background-color: rgba(0, 0, 0, 0);\n}\nfooter a {\n  text-decoration: none;\n  color: white;\n  font-size: 1.5rem;\n  align-items: center;\n}\nfooter a span {\n  padding-left: 1rem;\n}\nfooter a span .fa {\n  color: white;\n  font-size: 2rem;\n}\n\n.forecast {\n  color: white;\n  display: flex;\n  justify-content: space-around;\n  flex-direction: row;\n  height: 30rem;\n}\n.forecast .forecast-week {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n}\n.forecast .forecast-week .forecast-week-day {\n  font-size: 2rem;\n}\n\n@media (max-width: 768px) {\n  .forecast {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-between;\n  }\n}\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: inherit;\n}\n\nbody {\n  width: 100%;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") no-repeat center fixed;\n  background-size: cover;\n  height: 100%;\n}", "",{"version":3,"sources":["webpack://./src/style/modules/_search-box.scss","webpack://./src/style/style.scss","webpack://./src/style/modules/_places-api.scss","webpack://./src/style/modules/_main.scss","webpack://./src/style/modules/_footer.scss","webpack://./src/style/modules/_forecast.scss"],"names":[],"mappings":"AAAA;EACI,gBAAA;EACA,aAAA;EACA,uBAAA;ACCJ;ADCI;EACI,eAAA;EACA,aAAA;EACA,YAAA;EACA,wBAAA;EACA,uBAAA;EACA,gCAAA;EACA,YAAA;ACCR;ADCQ;EACI,gBAAA;EACA,YAAA;ACCZ;ADGI;EACI,WAAA;EACA,yDAAA;EACA,wBAAA;EACA,4BAAA;EACA,eAAA;EACA,gCAAA;ACDR;;ACzBA;EACI,aAAA;AD4BJ;;ACxBI;EACI,wBAAA;AD2BR;;AEjCA;EACI,gBAAA;EACA,aAAA;EACA,6BAAA;EACA,YAAA;AFoCJ;AElCI;EACI,WAAA;EACA,cAAA;AFoCR;AElCQ;EACI,mBAAA;AFoCZ;AEjCQ;EACI,eAAA;EACA,gBAAA;EACA,0BAAA;AFmCZ;AEhCQ;EACI,eAAA;EACA,gBAAA;AFkCZ;AE/BQ;EACI,WAAA;AFiCZ;AE3BQ;EACI,aAAA;EACA,qBAAA;AF6BZ;AE3BY;EACI,WAAA;EACA,mBAAA;AF6BhB;AE1BY;EACI,mBAAA;AF4BhB;AE1Be;EACI,kBAAA;EACA,gBAAA;EACC,iBAAA;AF4BpB;AEzBe;EACC,iBAAA;AF2BhB;;AG9EA;EACI,WAAA;EACA,aAAA;EACA,uBAAA;EACA,kBAAA;EACA,mBAAA;EACA,eAAA;EACA,SAAA;EACA,OAAA;EACA,eAAA;EACA,kCAAA;AHiFJ;AG/EI;EACI,qBAAA;EACA,YAAA;EACA,iBAAA;EACA,mBAAA;AHiFR;AG/EQ;EACI,kBAAA;AHiFZ;AGhFY;EACI,YAAA;EACA,eAAA;AHkFhB;;AIxGA;EACI,YAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,aAAA;AJ2GJ;AIzGI;EACI,aAAA;EACA,sBAAA;EACA,6BAAA;AJ2GR;AIzGQ;EACI,eAAA;AJ2GZ;;AIrGA;EACI;IACI,aAAA;IACA,sBAAA;IACA,mBAAA;IACA,8BAAA;EJwGN;AACF;AA3HA;EACI,SAAA;EACA,UAAA;EACA,mBAAA;AA6HJ;;AA1HA;EACI,WAAA;EACA,0EAAA;EACA,sBAAA;EACA,YAAA;AA6HJ","sourcesContent":[".search-box {\n    margin-top: 2rem;\n    display: flex;\n    justify-content: center;\n    \n    #search {\n        width: 18.75rem;\n        outline: none;\n        border: none;\n        padding: 0.5rem 0 0 2rem;\n        background: transparent;\n        border-bottom: 2px solid #ffffff;\n        color: white;\n        \n        &::-webkit-input-placeholder{\n            font-weight: 700;\n            color: white;\n        }\n    }\n\n    .search-glass {\n        width: 1rem;\n        background-image: url(/src/assets/search-icon.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        cursor: pointer;\n        border-bottom: 2px solid #ffffff;\n    }\n}","@import \"modules/search-box\";\n@import \"modules/places-api\";\n@import \"modules/main\";\n@import \"modules/footer\";\n@import \"modules/forecast\";\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: inherit;\n}\n\nbody {\n    width: 100%;\n    background: url(/screen-2.jpg) no-repeat center fixed;\n    background-size: cover;\n    height: 100%;\n}",".pac-icon {\n    display: none;\n}\n\n.pac-container {\n    &::after{\n        content: none !important;\n    }\n}","main {\n    margin-top: 1rem;\n    display: flex;\n    justify-content: space-around;\n    color: white;\n\n    .weather-info {\n        width: 100%;\n        max-width: 55%;\n\n        & > * {\n            margin-bottom: 1rem;\n        }\n\n        .weather-info-description {\n            font-size: 3rem;\n            font-weight: 600;\n            text-transform: capitalize;\n        }\n\n        .weather-info-temp {\n            font-size: 3rem;\n            font-weight: 800;\n        }\n\n        .weather-info-icon {\n            width: 4rem;\n        }\n    }\n\n    .weather-details-container {\n\n        .weather-details {\n            display: flex;\n            margin-bottom: 1.5rem;\n\n            .weather-details-icon {\n                width: 2rem;\n                padding-right: 1rem;\n            }\n\n            .weather-details-info {\n                align-items: center;\n\n               .weather-details-label {\n                   text-align: center;\n                   font-weight: 600;\n                    font-size: 1.4rem;\n               }\n\n               .weather-details-data {\n                font-size: 2.3rem;\n               }\n            }\n        }\n    \n    }\n}","footer {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    text-align: center;\n    align-items: center;\n    position: fixed;\n    bottom: 0;\n    left: 0;\n    padding: 0.3rem;\n    background-color: rgba(0, 0, 0, 0);\n\n    a {\n        text-decoration: none;\n        color: white;\n        font-size: 1.5rem;\n        align-items: center;\n\n        span {\n            padding-left: 1rem;\n            .fa {\n                color: white;\n                font-size: 2rem;\n            }\n        }\n    }\n\n}",".forecast {\n    color: white;\n    display: flex;\n    justify-content: space-around;\n    flex-direction: row;\n    height: 30rem;\n\n    .forecast-week {\n        display: flex;\n        flex-direction: column;\n        justify-content: space-around;\n\n        .forecast-week-day {\n            font-size: 2rem;\n        }\n    }\n}\n\n\n@media (max-width: 768px) {\n    .forecast {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: space-between;\n    }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, ".search-box {\n  margin-top: 2rem;\n  display: flex;\n  justify-content: center;\n}\n.search-box #search {\n  width: 18.75rem;\n  outline: none;\n  border: none;\n  padding: 0.5rem 0 0 2rem;\n  background: transparent;\n  border-bottom: 2px solid #ffffff;\n  color: white;\n  font-size: 1rem;\n}\n.search-box #search::-webkit-input-placeholder {\n  font-weight: 700;\n  color: white;\n  font-size: 1rem;\n}\n.search-box .search-glass {\n  width: 1rem;\n  background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n  background-size: contain;\n  background-repeat: no-repeat;\n  cursor: pointer;\n  border-bottom: 2px solid #ffffff;\n}\n\n@media (max-width: 768px) {\n  .search-box #search {\n    width: initial;\n  }\n}\n.pac-icon {\n  display: none;\n}\n\n.pac-container::after {\n  content: none !important;\n}\n\nmain {\n  margin-top: 1rem;\n  display: flex;\n  justify-content: space-around;\n  color: white;\n}\nmain .weather-info {\n  max-width: 55%;\n}\nmain .weather-info > * {\n  margin-bottom: 1rem;\n}\nmain .weather-info .weather-info-description {\n  font-size: 3rem;\n  font-weight: 600;\n  text-transform: capitalize;\n}\nmain .weather-info .weather-info-temp {\n  font-size: 3rem;\n  font-weight: 800;\n}\nmain .weather-info .weather-info-icon {\n  width: 4rem;\n}\nmain .weather-details-container .weather-details {\n  display: flex;\n  margin-bottom: 1.5rem;\n}\nmain .weather-details-container .weather-details .weather-details-icon {\n  width: 2rem;\n  padding-right: 1rem;\n}\nmain .weather-details-container .weather-details .weather-details-info {\n  align-items: center;\n}\nmain .weather-details-container .weather-details .weather-details-info .weather-details-label {\n  text-align: center;\n  font-weight: 600;\n  font-size: 1.4rem;\n}\nmain .weather-details-container .weather-details .weather-details-info .weather-details-data {\n  font-size: 2.3rem;\n}\n\n@media (max-width: 768px) {\n  .weather-info-description {\n    font-size: 1.5rem !important;\n  }\n  .weather-info-description > * {\n    font-size: 0.8rem;\n  }\n\n  .weather-details-container .weather-details {\n    margin-bottom: 0.5rem !important;\n  }\n  .weather-details-container .weather-details-icon {\n    width: 1.5rem !important;\n  }\n  .weather-details-container .weather-details-info .weather-details-label {\n    font-size: 0.8rem !important;\n  }\n  .weather-details-container .weather-details-info .weather-details-data {\n    font-size: 1.2rem !important;\n  }\n}\nfooter {\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  text-align: center;\n  align-items: center;\n  position: fixed;\n  bottom: 0;\n  left: 0;\n  padding: 0.3rem;\n  background-color: rgba(0, 0, 0, 0);\n}\nfooter a {\n  text-decoration: none;\n  color: white;\n  font-size: 1.5rem;\n  align-items: center;\n}\nfooter a span {\n  padding-left: 1rem;\n}\nfooter a span .fa {\n  color: white;\n  font-size: 2rem;\n}\n\n@media (max-width: 768px) {\n  footer {\n    position: initial;\n  }\n  footer a {\n    font-size: 1.2rem;\n  }\n}\n.forecast {\n  margin-top: 2rem;\n  color: white;\n  display: flex;\n  justify-content: space-around;\n  flex-direction: row;\n  /*height: 30rem;*/\n}\n.forecast .forecast-week {\n  display: flex;\n  flex-direction: column;\n  justify-content: space-around;\n}\n.forecast .forecast-week .forecast-week-day {\n  font-size: 2rem;\n  text-align: center;\n}\n.forecast .forecast-week .forecast-week-temperature {\n  font-weight: 700;\n  word-spacing: 2rem;\n}\n\n@media (max-width: 768px) {\n  .forecast {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-between;\n  }\n}\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: inherit;\n}\n\nbody {\n  width: 100%;\n  background: url(" + ___CSS_LOADER_URL_REPLACEMENT_1___ + ") no-repeat center fixed;\n  background-size: cover;\n  height: 100%;\n  font-family: \"IBM Plex Sans\", sans-serif;\n}\n\n#error {\n  display: none;\n  padding: 0.3rem;\n  text-align: center;\n  color: red;\n}", "",{"version":3,"sources":["webpack://./src/style/modules/_search-box.scss","webpack://./src/style/style.scss","webpack://./src/style/modules/_places-api.scss","webpack://./src/style/modules/_main.scss","webpack://./src/style/modules/_footer.scss","webpack://./src/style/modules/_forecast.scss"],"names":[],"mappings":"AAAA;EACI,gBAAA;EACA,aAAA;EACA,uBAAA;ACEJ;ADAI;EACI,eAAA;EACA,aAAA;EACA,YAAA;EACA,wBAAA;EACA,uBAAA;EACA,gCAAA;EACA,YAAA;EACA,eAAA;ACER;ADAQ;EACI,gBAAA;EACA,YAAA;EACA,eAAA;ACEZ;ADEI;EACI,WAAA;EACA,yDAAA;EACA,wBAAA;EACA,4BAAA;EACA,eAAA;EACA,gCAAA;ACAR;;ADIA;EAEQ;IACI,cAAA;ECFV;AACF;AClCA;EACI,aAAA;ADoCJ;;AChCI;EACI,wBAAA;ADmCR;;AEzCA;EACI,gBAAA;EACA,aAAA;EACA,6BAAA;EACA,YAAA;AF4CJ;AE1CI;EACI,cAAA;AF4CR;AE1CQ;EACI,mBAAA;AF4CZ;AEzCQ;EACI,eAAA;EACA,gBAAA;EACA,0BAAA;AF2CZ;AExCQ;EACI,eAAA;EACA,gBAAA;AF0CZ;AEvCQ;EACI,WAAA;AFyCZ;AEpCQ;EACI,aAAA;EACA,qBAAA;AFsCZ;AEpCY;EACI,WAAA;EACA,mBAAA;AFsChB;AEnCY;EACI,mBAAA;AFqChB;AEnCe;EACI,kBAAA;EACA,gBAAA;EACC,iBAAA;AFqCpB;AElCe;EACC,iBAAA;AFoChB;;AE5BA;EACI;IACI,4BAAA;EF+BN;EE7BM;IACI,iBAAA;EF+BV;;EE1BM;IACI,gCAAA;EF6BV;EE1BM;IACI,wBAAA;EF4BV;EExBS;IACK,4BAAA;EF0Bd;EEvBS;IACC,4BAAA;EFyBV;AACF;AG3GA;EACI,WAAA;EACA,aAAA;EACA,uBAAA;EACA,kBAAA;EACA,mBAAA;EACA,eAAA;EACA,SAAA;EACA,OAAA;EACA,eAAA;EACA,kCAAA;AH6GJ;AG3GI;EACI,qBAAA;EACA,YAAA;EACA,iBAAA;EACA,mBAAA;AH6GR;AG3GQ;EACI,kBAAA;AH6GZ;AG5GY;EACI,YAAA;EACA,eAAA;AH8GhB;;AGvGA;EACI;IACI,iBAAA;EH0GN;EGxGM;IACI,iBAAA;EH0GV;AACF;AI7IA;EACI,gBAAA;EACA,YAAA;EACA,aAAA;EACA,6BAAA;EACA,mBAAA;EACA,iBAAA;AJ+IJ;AI7II;EACI,aAAA;EACA,sBAAA;EACA,6BAAA;AJ+IR;AI7IQ;EACI,eAAA;EACA,kBAAA;AJ+IZ;AI5IQ;EACI,gBAAA;EACA,kBAAA;AJ8IZ;;AIxIA;EACI;IACI,aAAA;IACA,sBAAA;IACA,mBAAA;IACA,8BAAA;EJ2IN;AACF;AApKA;EACI,SAAA;EACA,UAAA;EACA,mBAAA;AAsKJ;;AAlKA;EACI,WAAA;EACA,0EAAA;EACA,sBAAA;EACA,YAAA;EACA,wCAAA;AAqKJ;;AAlKA;EACI,aAAA;EACA,eAAA;EACA,kBAAA;EACA,UAAA;AAqKJ","sourcesContent":[".search-box {\n    margin-top: 2rem;\n    display: flex;\n    justify-content: center;\n    \n    #search {\n        width: 18.75rem;\n        outline: none;\n        border: none;\n        padding: 0.5rem 0 0 2rem;\n        background: transparent;\n        border-bottom: 2px solid #ffffff;\n        color: white;\n        font-size: 1rem;\n        \n        &::-webkit-input-placeholder{\n            font-weight: 700;\n            color: white;\n            font-size: 1rem;\n        }\n    }\n\n    .search-glass {\n        width: 1rem;\n        background-image: url(/src/assets/search-icon.png);\n        background-size: contain;\n        background-repeat: no-repeat;\n        cursor: pointer;\n        border-bottom: 2px solid #ffffff;\n    }\n}\n\n@media (max-width: 768px) {\n    .search-box {\n        #search {\n            width: initial;\n        }\n    }\n}","@import \"modules/search-box\";\n@import \"modules/places-api\";\n@import \"modules/main\";\n@import \"modules/footer\";\n@import \"modules/forecast\";\n@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');\n\n* {\n    margin: 0;\n    padding: 0;\n    box-sizing: inherit;\n}\n\n\nbody {\n    width: 100%;\n    background: url(/screen-2.jpg) no-repeat center fixed;\n    background-size: cover;\n    height: 100%;\n    font-family: 'IBM Plex Sans', sans-serif;\n}\n\n#error {\n    display: none;\n    padding: 0.3rem;\n    text-align: center;\n    color:red;\n}",".pac-icon {\n    display: none;\n}\n\n.pac-container {\n    &::after{\n        content: none !important;\n    }\n}","main {\n    margin-top: 1rem;\n    display: flex;\n    justify-content: space-around;\n    color: white;\n\n    .weather-info {\n        max-width: 55%;\n\n        & > * {\n            margin-bottom: 1rem;\n        }\n\n        .weather-info-description {\n            font-size: 3rem;\n            font-weight: 600;\n            text-transform: capitalize;\n        }\n\n        .weather-info-temp {\n            font-size: 3rem;\n            font-weight: 800;\n        }\n\n        .weather-info-icon {\n            width: 4rem;\n        }\n    }\n\n    .weather-details-container {\n        .weather-details {\n            display: flex;\n            margin-bottom: 1.5rem;\n\n            .weather-details-icon {\n                width: 2rem;\n                padding-right: 1rem;\n            }\n\n            .weather-details-info {\n                align-items: center;\n\n               .weather-details-label {\n                   text-align: center;\n                   font-weight: 600;\n                    font-size: 1.4rem;\n               }\n\n               .weather-details-data {\n                font-size: 2.3rem;\n               }\n            }\n        }\n    \n    }\n}\n\n@media (max-width: 768px) {\n    .weather-info-description {\n        font-size: 1.5rem !important;\n\n        & > * {\n            font-size: 0.8rem;\n        }\n    }\n\n    .weather-details-container {\n        .weather-details {\n            margin-bottom: 0.5rem !important;\n        }\n\n        .weather-details-icon {\n            width: 1.5rem !important;\n        }\n\n        .weather-details-info {\n           .weather-details-label {\n                font-size: 0.8rem !important;\n           }\n\n           .weather-details-data {\n            font-size: 1.2rem !important;\n           }\n        }\n    }\n}","footer {\n    width: 100%;\n    display: flex;\n    justify-content: center;\n    text-align: center;\n    align-items: center;\n    position: fixed;\n    bottom: 0;\n    left: 0;\n    padding: 0.3rem;\n    background-color: rgba(0, 0, 0, 0);\n\n    a {\n        text-decoration: none;\n        color: white;\n        font-size: 1.5rem;\n        align-items: center;\n\n        span {\n            padding-left: 1rem;\n            .fa {\n                color: white;\n                font-size: 2rem;\n            }\n        }\n    }\n\n}\n\n@media (max-width: 768px ){\n    footer {\n        position: initial;\n\n        a {\n            font-size: 1.2rem;\n        }\n    }\n}",".forecast {\n    margin-top: 2rem;\n    color: white;\n    display: flex;\n    justify-content: space-around;\n    flex-direction: row;\n    /*height: 30rem;*/\n\n    .forecast-week {\n        display: flex;\n        flex-direction: column;\n        justify-content: space-around;\n\n        .forecast-week-day {\n            font-size: 2rem;\n            text-align: center;\n        }\n\n        .forecast-week-temperature {\n            font-weight: 700;\n            word-spacing: 2rem;\n        }\n    }\n}\n\n\n@media (max-width: 768px) {\n    .forecast {\n        display: flex;\n        flex-direction: column;\n        align-items: center;\n        justify-content: space-between;\n    }\n}"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -198,6 +199,166 @@ module.exports = function (url, options) {
 
   return url;
 };
+
+/***/ }),
+
+/***/ "./node_modules/date-fns/esm/_lib/requiredArgs/index.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/date-fns/esm/_lib/requiredArgs/index.js ***!
+  \**************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ requiredArgs)
+/* harmony export */ });
+function requiredArgs(required, args) {
+  if (args.length < required) {
+    throw new TypeError(required + ' argument' + (required > 1 ? 's' : '') + ' required, but only ' + args.length + ' present');
+  }
+}
+
+/***/ }),
+
+/***/ "./node_modules/date-fns/esm/_lib/toInteger/index.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/date-fns/esm/_lib/toInteger/index.js ***!
+  \***********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ toInteger)
+/* harmony export */ });
+function toInteger(dirtyNumber) {
+  if (dirtyNumber === null || dirtyNumber === true || dirtyNumber === false) {
+    return NaN;
+  }
+
+  var number = Number(dirtyNumber);
+
+  if (isNaN(number)) {
+    return number;
+  }
+
+  return number < 0 ? Math.ceil(number) : Math.floor(number);
+}
+
+/***/ }),
+
+/***/ "./node_modules/date-fns/esm/fromUnixTime/index.js":
+/*!*********************************************************!*\
+  !*** ./node_modules/date-fns/esm/fromUnixTime/index.js ***!
+  \*********************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ fromUnixTime)
+/* harmony export */ });
+/* harmony import */ var _toDate_index_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../toDate/index.js */ "./node_modules/date-fns/esm/toDate/index.js");
+/* harmony import */ var _lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../_lib/toInteger/index.js */ "./node_modules/date-fns/esm/_lib/toInteger/index.js");
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_lib/requiredArgs/index.js */ "./node_modules/date-fns/esm/_lib/requiredArgs/index.js");
+
+
+
+/**
+ * @name fromUnixTime
+ * @category Timestamp Helpers
+ * @summary Create a date from a Unix timestamp.
+ *
+ * @description
+ * Create a date from a Unix timestamp.
+ *
+ * ### v2.0.0 breaking changes:
+ *
+ * - [Changes that are common for the whole library](https://github.com/date-fns/date-fns/blob/master/docs/upgradeGuide.md#Common-Changes).
+ *
+ * @param {Number} unixTime - the given Unix timestamp
+ * @returns {Date} the date
+ * @throws {TypeError} 1 argument required
+ *
+ * @example
+ * // Create the date 29 February 2012 11:45:05:
+ * var result = fromUnixTime(1330515905)
+ * //=> Wed Feb 29 2012 11:45:05
+ */
+
+function fromUnixTime(dirtyUnixTime) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
+  var unixTime = (0,_lib_toInteger_index_js__WEBPACK_IMPORTED_MODULE_1__.default)(dirtyUnixTime);
+  return (0,_toDate_index_js__WEBPACK_IMPORTED_MODULE_2__.default)(unixTime * 1000);
+}
+
+/***/ }),
+
+/***/ "./node_modules/date-fns/esm/toDate/index.js":
+/*!***************************************************!*\
+  !*** ./node_modules/date-fns/esm/toDate/index.js ***!
+  \***************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ toDate)
+/* harmony export */ });
+/* harmony import */ var _lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../_lib/requiredArgs/index.js */ "./node_modules/date-fns/esm/_lib/requiredArgs/index.js");
+
+/**
+ * @name toDate
+ * @category Common Helpers
+ * @summary Convert the given argument to an instance of Date.
+ *
+ * @description
+ * Convert the given argument to an instance of Date.
+ *
+ * If the argument is an instance of Date, the function returns its clone.
+ *
+ * If the argument is a number, it is treated as a timestamp.
+ *
+ * If the argument is none of the above, the function returns Invalid Date.
+ *
+ * **Note**: *all* Date arguments passed to any *date-fns* function is processed by `toDate`.
+ *
+ * @param {Date|Number} argument - the value to convert
+ * @returns {Date} the parsed date in the local time zone
+ * @throws {TypeError} 1 argument required
+ *
+ * @example
+ * // Clone the date:
+ * const result = toDate(new Date(2014, 1, 11, 11, 30, 30))
+ * //=> Tue Feb 11 2014 11:30:30
+ *
+ * @example
+ * // Convert the timestamp to date:
+ * const result = toDate(1392098430000)
+ * //=> Tue Feb 11 2014 11:30:30
+ */
+
+function toDate(argument) {
+  (0,_lib_requiredArgs_index_js__WEBPACK_IMPORTED_MODULE_0__.default)(1, arguments);
+  var argStr = Object.prototype.toString.call(argument); // Clone the date
+
+  if (argument instanceof Date || typeof argument === 'object' && argStr === '[object Date]') {
+    // Prevent the date to lose the milliseconds when passed to new Date() in IE10
+    return new Date(argument.getTime());
+  } else if (typeof argument === 'number' || argStr === '[object Number]') {
+    return new Date(argument);
+  } else {
+    if ((typeof argument === 'string' || argStr === '[object String]') && typeof console !== 'undefined') {
+      // eslint-disable-next-line no-console
+      console.warn("Starting with v2.0.0-beta.1 date-fns doesn't accept strings as date arguments. Please use `parseISO` to parse strings. See: https://git.io/fjule"); // eslint-disable-next-line no-console
+
+      console.warn(new Error().stack);
+    }
+
+    return new Date(NaN);
+  }
+}
 
 /***/ }),
 
@@ -541,25 +702,29 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "renderWeather": () => (/* binding */ renderWeather)
 /* harmony export */ });
+/* harmony import */ var date_fns_fromUnixTime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! date-fns/fromUnixTime */ "./node_modules/date-fns/esm/fromUnixTime/index.js");
+
+
 function renderWeather(data) {
     _renderWeatherInfo(data);
     _renderWeatherDetailsContainer(data);
+    _renderForecast(data);
 }
 
 function _renderWeatherInfo(data) {
-
     const content = {
-        description: data.weather[0].description,
+        description: data.current.weather[0].description,
         name: data.name,
-        temp: data.main.temp + ' °C',
-        icon: `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
+        day: `${_returnCorretDate(data.daily[0].dt, data.timezone_offset)}`,
+        temp: `${Math.round(data.current.temp)} °C`,
+        icon: `http://openweathermap.org/img/wn/${data.current.weather[0].icon}@2x.png`,
     }
     const keys = Object.keys(content);
     const values = Object.values(content);
 
     for (let i = 0; i < keys.length; i++) {
         if (keys[i] !== 'icon') {
-            document.querySelector(`.weather-info-${keys[i]}`).textContent = values[i];
+            document.querySelector(`.weather-info-${keys[i]} `).textContent = values[i];
         } else {
             document.getElementById('weather-info-icon-image').src = values[i];
         }
@@ -568,18 +733,32 @@ function _renderWeatherInfo(data) {
 
 function _renderWeatherDetailsContainer(data) {
     const content = {
-        feels_like: `${data.main.feels_like}°C`,
-        humidity: `${data.main.humidity} %`,
-        wind_speed: `${data.wind.speed} km/h`,
+        feels_like: `${Math.round(data.current.feels_like)} °C`,
+        humidity: `${data.current.humidity} % `,
+        chance_of_rain: `${data.daily[0].pop} % `,
+        wind_speed: `${data.current.wind_speed} m/s`,
     }
 
     const keys = Object.keys(content);
     const values = Object.values(content);
 
     for (let i = 0; i < keys.length; i++) {
-        document.querySelector(`#${keys[i]}`).textContent = values[i];
+        document.querySelector(`#${keys[i]} `).textContent = values[i];
     }
 
+}
+
+function _renderForecast(data) {
+
+    for (let i = 1; i < document.querySelector('.forecast').childElementCount + 1; i++) {
+        document.querySelector(`#forecast-week-day-${i}`).textContent = _returnCorretDate(data.daily[i].dt, data.timezone_offset).slice(0, 7);
+        document.querySelector(`#forecast-week-icon-${i}`).src = `http://openweathermap.org/img/wn/${data.daily[i].weather[0].icon}@2x.png`;
+        document.querySelector(`#forecast-week-temperature-${i}`).textContent = `${Math.round(data.daily[i].temp.min)}°C ${Math.round(data.daily[i].temp.max)}°C`;
+    }
+}
+
+function _returnCorretDate(dt, timezone) {
+    return (0,date_fns_fromUnixTime__WEBPACK_IMPORTED_MODULE_0__.default)(dt + timezone).toUTCString().slice(0, 16);
 }
 
 /***/ }),
@@ -593,7 +772,11 @@ function _renderWeatherDetailsContainer(data) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "weather": () => (/* binding */ weather)
+/* harmony export */   "getForecastUrl": () => (/* binding */ getForecastUrl),
+/* harmony export */   "getForecast": () => (/* binding */ getForecast),
+/* harmony export */   "hideMensageError": () => (/* binding */ hideMensageError),
+/* harmony export */   "sendDataFromInput": () => (/* binding */ sendDataFromInput),
+/* harmony export */   "getDataFromRequest": () => (/* binding */ getDataFromRequest)
 /* harmony export */ });
 const searchInput = document.querySelector('#search');
 const options = {
@@ -602,12 +785,67 @@ const options = {
 
 new google.maps.places.Autocomplete(searchInput, options);
 
-async function weather(name) {
-    const response = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${name}&units=metric&appid=fed5252a83d1efbe48a54ce479af6041`,
-        { mode: 'cors' });
-    return await response.json()
+function getUrlWithCityName(name) {
+    console.log(name);
+    return `http://api.openweathermap.org/data/2.5/weather?q=${name}&units=metric&appid=fed5252a83d1efbe48a54ce479af6041`
 }
 
+function getForecastUrl(coords, units = 'metric') {
+    return `https://api.openweathermap.org/data/2.5/onecall?lat=${coords.lat}&lon=${coords.lon}&exclude=minutely,alerts&units=${units}&appid=fed5252a83d1efbe48a54ce479af6041`;
+}
+
+async function getWeatherCoords(url) {
+    const response = await fetch(url,
+        { mode: 'cors' });
+
+    if (response.status === 404) {
+        throwMensageError()
+    } else {
+        const data = await response.json();
+        const { coord } = data;
+        return coord;
+    }
+
+}
+
+async function getForecast(url) {
+    const response = await fetch(url, { mode: 'cors' });
+    console.log(response);
+    if (response.status === 404) {
+        throwMensageError()
+    } else {
+        const data = await response.json();
+        return data;
+    }
+}
+
+function throwMensageError() {
+    document.querySelector('#error').style.display = 'block';
+}
+
+function hideMensageError() {
+    document.querySelector('#error').style.display = 'none';
+}
+
+async function sendDataFromInput(value) {
+    const coords = await getWeatherCoords(getUrlWithCityName(value));
+    const data = await getForecast(getForecastUrl(coords));
+    data.name = value;
+
+    return data;
+}
+
+async function getDataFromRequest(position) {
+    position.coords.lat = position.coords.latitude;
+    position.coords.lon = position.coords.longitude;
+
+    const coords = await getForecastUrl(position.coords);
+    const data = await getForecast(coords);
+
+    data.name = 'Your Location';
+
+    return data;
+}
 
 /***/ })
 
@@ -728,14 +966,29 @@ __webpack_require__.r(__webpack_exports__);
 
 const searchInput = document.querySelector('#search');
 const divSearch = document.querySelector('.search-glass');
-const api = "https://api.openweathermap.org/data/2.5/onecall?lat={lat}&lon={lon}&exclude={part}&appid={API key}"
+
+searchInput.addEventListener('focus', () => {
+    _modules_weather_api_functions__WEBPACK_IMPORTED_MODULE_1__.hideMensageError();
+})
 
 divSearch.addEventListener('click', async () => {
-    const response = await (0,_modules_weather_api_functions__WEBPACK_IMPORTED_MODULE_1__.weather)(searchInput.value);
-    console.log(response);
-    (0,_modules_domFunctions__WEBPACK_IMPORTED_MODULE_2__.renderWeather)(response);
+    const data = await _modules_weather_api_functions__WEBPACK_IMPORTED_MODULE_1__.sendDataFromInput(searchInput.value);
+    (0,_modules_domFunctions__WEBPACK_IMPORTED_MODULE_2__.renderWeather)(data);
 });
 
+async function sucessRequest(position) {
+    const data = await _modules_weather_api_functions__WEBPACK_IMPORTED_MODULE_1__.getDataFromRequest(position);
+    (0,_modules_domFunctions__WEBPACK_IMPORTED_MODULE_2__.renderWeather)(data);
+}
+
+async function deniedRequest() {
+    const data = await _modules_weather_api_functions__WEBPACK_IMPORTED_MODULE_1__.sendDataFromInput('Belo Horizonte, MG, Brasil');
+    (0,_modules_domFunctions__WEBPACK_IMPORTED_MODULE_2__.renderWeather)(data);
+}
+
+if (window.navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(sucessRequest, deniedRequest);
+}
 
 
 
