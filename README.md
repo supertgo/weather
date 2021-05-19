@@ -1,5 +1,5 @@
 # Weather
-Aplicação feita em JavaScript e Webpack Puro para consultar o tempo nas mais diversas cidades. Foram o utilizadas a Api do Google para sugestões de lugares e a api da openWeather para consultar o tempo.
+Aplicação feita em JavaScript e Webpack Puro para consultar o tempo nas mais diversas cidades. Foram o utilizadas a <a href='https://developers.google.com/maps/documentation/places/web-service/overview?hl=vi' target='_blank'>Api do Google </a> para sugestões de lugares e a api da openWeather para consultar o tempo.
 
 
 ## O que aprendi
