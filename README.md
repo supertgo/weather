@@ -3,8 +3,8 @@ Aplicação feita em JavaScript e Webpack Puro para consultar o tempo nas mais d
 
 
 ##O que aprendi
-1 - Como separar o webpack em modo de produção e desenvolvimento e suas configurações no packge.json
-2 - Webpack Loaders (sass-loader, css-loader, style-loader.....)
-3 - Plugins para performance (clean-webpack-plugin, mini-css-extract-plugin, html-webpack-plugin....)
-4 - Utilização do date-fns
-5 - .env parar esconder a api key
+<li> Como separar o webpack em modo de produção e desenvolvimento e suas configurações no packge.json </li>
+<li> Webpack Loaders (sass-loader, css-loader, style-loader.....) </li>
+<li> Plugins para performance (clean-webpack-plugin, mini-css-extract-plugin, html-webpack-plugin....) </li>
+<li> Utilização do date-fns </li>
+<li> .env parar esconder a api key </li>
