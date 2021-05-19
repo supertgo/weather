@@ -26,3 +26,13 @@ footer {
     }
 
 }
+
+@media (max-width: 768px ){
+    footer {
+        position: initial;
+
+        a {
+            font-size: 1.2rem;
+        }
+    }
+}

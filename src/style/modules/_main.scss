@@ -5,7 +5,6 @@ main {
     color: white;
 
     .weather-info {
-        width: 100%;
         max-width: 55%;
 
         & > * {
@@ -29,7 +28,6 @@ main {
     }
 
     .weather-details-container {
-
         .weather-details {
             display: flex;
             margin-bottom: 1.5rem;
@@ -54,5 +52,35 @@ main {
             }
         }
     
+    }
+}
+
+@media (max-width: 768px) {
+    .weather-info-description {
+        font-size: 1.5rem !important;
+
+        & > * {
+            font-size: 0.8rem;
+        }
+    }
+
+    .weather-details-container {
+        .weather-details {
+            margin-bottom: 0.5rem !important;
+        }
+
+        .weather-details-icon {
+            width: 1.5rem !important;
+        }
+
+        .weather-details-info {
+           .weather-details-label {
+                font-size: 0.8rem !important;
+           }
+
+           .weather-details-data {
+            font-size: 1.2rem !important;
+           }
+        }
     }
 }
