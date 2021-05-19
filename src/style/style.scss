@@ -3,6 +3,7 @@
 @import "modules/main";
 @import "modules/footer";
 @import "modules/forecast";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
 
 * {
     margin: 0;
@@ -10,9 +11,18 @@
     box-sizing: inherit;
 }
 
+
 body {
     width: 100%;
     background: url(/screen-2.jpg) no-repeat center fixed;
     background-size: cover;
     height: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+#error {
+    display: none;
+    padding: 0.3rem;
+    text-align: center;
+    color:red;
 }
