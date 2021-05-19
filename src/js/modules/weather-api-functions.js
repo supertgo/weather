@@ -7,11 +7,11 @@ new google.maps.places.Autocomplete(searchInput, options);
 
 function getUrlWithCityName(name) {
     console.log(name);
-    return `https://api.openweathermap.org/data/2.5/weather?q=${name}&units=metric&appid=fed5252a83d1efbe48a54ce479af6041`
+    return `https://api.openweathermap.org/data/2.5/weather?q=${name}&units=metric&appid=${process.env.WEBPACK_API_KEY}`
 }
 
 export function getForecastUrl(coords, units = 'metric') {
-    return `https://api.openweathermap.org/data/2.5/onecall?lat=${coords.lat}&lon=${coords.lon}&exclude=minutely,alerts&units=${units}&appid=fed5252a83d1efbe48a54ce479af6041`;
+    return `https://api.openweathermap.org/data/2.5/onecall?lat=${coords.lat}&lon=${coords.lon}&exclude=minutely,alerts&units=${units}&appid=${process.env.WEBPACK_API_KEY}`;
 }
 
 async function getWeatherCoords(url) {
@@ -30,7 +30,6 @@ async function getWeatherCoords(url) {
 
 export async function getForecast(url) {
     const response = await fetch(url, { mode: 'cors' });
-    console.log(response);
     if (response.status === 404) {
         throwMensageError()
     } else {
