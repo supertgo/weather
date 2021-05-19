@@ -12,7 +12,7 @@ function _renderWeatherInfo(data) {
         name: data.name,
         day: `${_returnCorretDate(data.daily[0].dt, data.timezone_offset)}`,
         temp: `${Math.round(data.current.temp)} °C`,
-        icon: `http://openweathermap.org/img/wn/${data.current.weather[0].icon}@2x.png`,
+        icon: `https://openweathermap.org/img/wn/${data.current.weather[0].icon}@2x.png`,
     }
     const keys = Object.keys(content);
     const values = Object.values(content);
@@ -47,7 +47,7 @@ function _renderForecast(data) {
 
     for (let i = 1; i < document.querySelector('.forecast').childElementCount + 1; i++) {
         document.querySelector(`#forecast-week-day-${i}`).textContent = _returnCorretDate(data.daily[i].dt, data.timezone_offset).slice(0, 7);
-        document.querySelector(`#forecast-week-icon-${i}`).src = `http://openweathermap.org/img/wn/${data.daily[i].weather[0].icon}@2x.png`;
+        document.querySelector(`#forecast-week-icon-${i}`).src = `https://openweathermap.org/img/wn/${data.daily[i].weather[0].icon}@2x.png`;
         document.querySelector(`#forecast-week-temperature-${i}`).textContent = `${Math.round(data.daily[i].temp.min)}°C ${Math.round(data.daily[i].temp.max)}°C`;
     }
 }
